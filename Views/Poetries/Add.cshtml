@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+<div class="navbar">
+    <a class="navlink" href="/Poetries/List">Back to List</a>
+</div>
+<h2>Add Poetry</h2>
+<form method="post" action="/Poetries/Add">
+    <div class="inpfield"><span>Name:</span><input type="text" id="PoetryName" name="PoetryName" /></div>
+    <div class="inpfield"><span>Date:</span><input type="text" id="PoetryDate" name="PoetryDate" /></div>
+    <div class="inpfield"><span>Description:</span><input type="text" id="PoetryDesc" name="PoetryDesc" /></div>
+    <div class="inpfield"><input type="submit" value="Add Poetry" /></div>
+</form>
